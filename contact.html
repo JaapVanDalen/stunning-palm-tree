@@ -1,0 +1,87 @@
+<!doctype html5>
+<html lang="nl" lang="en">
+<link href= 'contact.css'  rel="stylesheet" type="text/css"
+	
+	<head>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<title>Contact</title>
+		<meta name="author" content="Jaap van Dalen">
+		<meta name="keywords" content="Toys and Gadgets, Online, Games, Boardgames, Jaap van Dalen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"	
+	</head>
+
+	<body>
+	
+		<main class="fullscreen-bg">
+			<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+				<source src="images/background.mp4" type="video/webm">
+			</video>
+		</main>
+		
+		<header class="containercompanylogoBG">
+			<img src="images/companylogoBG.png" alt="ComanylogoBG" id="companylogoBG">
+			<h1 id="title">Toys and Gadgets</h1>
+		</header>
+			
+			
+		<nav id="menubalk">
+			<button id="menuButton"></button>
+			<a href="index.html" class="buttonsMenubalk" id="buttons1">HOME</a>
+			<a href="product.html" class="buttonsMenubalk" id="buttons2">PRODUCT</a>
+			<a href="http://www.blogger.com" class="buttonsMenubalk" id="buttons3">BLOG</a>
+		</nav>	
+	
+		<main class="witVlak">
+		
+		<p href="#" id="contact">CONTACT</p>
+		<p id="moreInformation">more information</p>
+		
+		<form action="nowhere.php" method="post">
+			<fieldset>
+				<label id=selectTopicText>Select topic</label>
+				<select id=selectTopic>
+					<option value="general">General inquiries</option>
+					<option value="press">Press relations</option>
+					<option value="recruitement">Recruitement</option>
+				</select>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input id="button"
+					type="text"
+					name="contactFormName"
+					placeholder="Your name.."
+					
+				/>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input id="button"
+					type="email"
+					name="email"
+					placeholder="Your email.."
+				/>
+			</fieldset>
+			<fieldset>
+				<textarea
+					rows="7"
+					cols="40"
+					name="message"
+					placeholder="Write something.."
+				></textarea>
+			</fieldset>
+			<input id="submitButton"
+				type="submit"
+				value="Submit"
+			/>
+			
+		</form>
+		
+		</main>
+		
+
+		<footer id="footer">
+			&copy 2018 - Jaap van Dalen - Inholland
+		</footer>
+		
+	</body>
+</html>
+

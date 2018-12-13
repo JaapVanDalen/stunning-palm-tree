@@ -1,0 +1,400 @@
+body {
+	background-image: url(images/background.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	font-size: 20px;
+	background-attachment: fixed;
+	font-family: arial, sherif;
+
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+	right: 0px;
+    bottom: 0px;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+	background: center;
+}
+
+
+
+
+.containercompanylogoBG{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+#companylogoBG{
+	width: 960px;
+    height: auto;
+	overflow: hidden;
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	clip: rect(20px,25px,0px,0px);
+}
+
+#title{
+	position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+	font-size: 80px;
+}
+
+#menubalk{
+	background-color: #919191;
+	width: 940px;
+	margin: auto;
+	padding: 10px;
+}
+
+.buttonsMenubalk{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#buttonsProducts{
+	position: relative;
+	left: 100px;
+}
+
+#buttonsBlog{
+	position: relative;
+	left: 360px;
+}
+
+#buttonsContact{
+	position: relative;
+	right: -640px;
+}
+
+
+
+.WAEBackground{
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+    border: none;
+	width: 960px;
+	text-align: center;
+}
+
+#buttonsWAE{
+	color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110px;
+    cursor: pointer;
+	margin: 0%;
+}
+
+#WAEImage{
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 960px;
+	height: 400px;
+	object-fit: cover;
+}
+
+
+.MGBackground{
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+    border: none;
+	width: 960px;
+	text-align: center;
+}
+
+#buttonsMG{
+	
+	color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110px;
+    cursor: pointer;
+	margin: 0%;
+}
+
+#MGImage{
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 960px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.BGBackground{
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+    border: none;
+	width: 960px;
+	text-align: center;
+}
+
+#buttonsBG{
+	
+	color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110px;
+    cursor: pointer;
+	margin: 0%;
+}
+
+#BGImage{
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 960px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.CGBackground{
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+    border: none;
+	width: 960px;
+	text-align: center;
+}
+
+#buttonsCG{
+	
+	color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110px;
+    cursor: pointer;
+	margin: 0%;
+}
+
+#CGImage{
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 960px;
+	height: 400px;
+	object-fit: cover;
+}
+
+#footer{
+	text-align: center;
+	color: #ffffff;
+	width: 960px;
+	height: 30px;
+	position: relative;
+	margin: auto;
+	background-color: #000000;
+	border: none;
+	top: -5px;
+}
+
+
+@media (max-width: 960px){
+
+#footer{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10%, 10%;
+	font-size: 2vw;
+	top: 0px;
+}
+
+#companylogoBG{
+	width: 100%;
+}
+
+#title{
+	font-size: 8vw;
+	text-shadow: -1.25px -1.25px 0 #000, 1.25px -1.25px 0 #000, -1.25px 1.25px 0 #000, 1.25px 1.25px 0 #000; 
+}
+
+#menubalk{
+	background-color: #919191;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+
+.buttonsMenubalk{
+    font-size: 2.5vw;
+}
+
+#buttonsProducts{
+	position: relative;
+	left: 10%;
+}
+
+#buttonsBlog{
+	position: absolute;
+	left: 50%
+}
+
+#buttonsContact{
+	position: absolute;
+	right: 10%;
+}
+
+.WAEBackground{
+	width: 100%;
+}
+
+#buttonsWAE{
+	font-size: 10vw;
+}
+
+#WAEImage{
+	padding: 0.5%;
+	background-color: #ffffff;
+	position: relative;
+	left: 0px;
+	display: inline;
+	width: 48%;
+	height: 35vw;
+	object-fit: cover;
+}
+
+#MGImage{
+	padding: 0.5%;
+	background-color: #ffffff;
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 48%;
+	height: 35vw;
+	object-fit: cover;
+}
+
+
+.CGBackground{
+	width: 100%;
+	top: 0px;
+}
+
+#buttonsCG{
+	font-size: 10vw;
+	top: 0px;
+}
+
+#CGImage{
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	top: 0px;
+}
+
+.MGBackground{
+	display: none;
+}
+
+.BGBackground{
+	display: none;
+}
+
+#BGImage{
+	display: none;
+}
+
+}
+
+@media (max-width: 360px){
+
+#title{
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+#WAEImage{
+	padding: 0%;
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 100%;
+	height: 40vw;
+	object-fit: cover;
+	top: 0px;
+	overflow: hidden;
+}
+
+#MGImage{
+	padding: 0%;
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 100%;
+	height: 40vw;
+	object-fit: cover;
+	top: 0px;
+	overflow: hidden;
+}
+
+#BGImage{
+	padding: 0%;
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 100%;
+	height: 40vw;
+	object-fit: cover;
+	top: 0px;
+	overflow: hidden;
+}
+
+#CGImage{
+	padding: 0%;
+	position: relative;
+	right: 0px;
+	display: inline;
+	width: 100%;
+	height: 40vw;
+	object-fit: cover;
+	top: 0px;
+	overflow: hidden;
+}
+
+.CGBackground{
+	display: none;
+}
+
+	
+}
+
+
+

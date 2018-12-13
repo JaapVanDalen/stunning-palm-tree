@@ -1,0 +1,505 @@
+body {
+	background-image: url(images/background.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	font-size: 20px;
+	background-attachment: fixed;
+	font-family: arial, sherif;
+	
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+	right: 0px;
+    bottom: 0px;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+	background: center;
+}
+
+
+
+
+.containercompanylogoBG{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+#companylogoBG{
+	width: 960px;
+    height: auto;
+	overflow: hidden;
+	margin: 0;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	clip: rect(20px,25px,0px,0px);
+}
+
+#title{
+	position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+	font-size: 80px;
+}
+
+#menubalk{
+	background-color: #ffffff;
+	position: relative;
+	background-color: #919191;
+	width: 940px;
+	margin: auto;
+	margin-top: 0.1vw;
+	margin-bottom: 0.1vw;
+	padding: 10px;
+}
+
+#menuButton{
+	background-image: url(images/menuButton.png);
+	background-size: 100% 100%;
+	text-decoration: none;
+	border: none;
+	position: relative;
+	display: none;
+	left: 3%;	
+	width: 5%;
+	height: 2.5%;
+	object-fit: cover;
+}
+
+.buttonsMenubalk{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#buttons1{
+	display: inline-block;
+	position: relative;
+	left: 100px;
+}
+
+#buttons2{
+	display: inline-block;
+	position: relative;
+	left: 360px;
+}
+
+#buttons3{
+	display: inline-block;
+	position: relative;
+	right: -640px;
+}
+
+#contact{
+	color: #ffffff;
+    text-align: center;
+    font-size: 5vw;
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+	width: 960px;
+}
+
+.witVlak{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	width: 960px;
+	overflow: hidden;
+}
+.productImages{
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	width: 960px;
+	display: block;
+}
+
+#product1{
+	background-image: url(images/product1.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product2{
+	background-image: url(images/product2.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product3{
+	background-image: url(images/product3.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product4{
+	background-image: url(images/product4.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product5{
+	background-image: url(images/product5.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product6{
+	background-image: url(images/product6.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product7{
+	background-image: url(images/product7.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product8{
+	background-image: url(images/product8.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product9{
+	background-image: url(images/product9.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product10{
+	background-image: url(images/product10.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product11{
+	background-image: url(images/product11.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#product12{
+	background-image: url(images/product12.jpg);
+	position: relative;
+	margin-left: 3%;
+	margin-top: 3%;
+	background-size: cover;
+	width: 280px;
+	height: 250px;
+}
+
+#footer{
+	text-align: center;
+	color: #ffffff;
+	width: 960px;
+	height: 30px;
+	position: relative;
+	margin: auto;
+	background-color: #000000;
+	border: none;
+	top: -5px;
+}
+
+@media (max-width: 960px){
+
+#footer{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10%, 10%;
+	font-size: 2vw;
+	top: 0px;
+}
+
+#companylogoBG{
+	width: 100%;
+}
+
+#title{
+	font-size: 8vw;
+	text-shadow: -1.25px -1.25px 0 #000, 1.25px -1.25px 0 #000, -1.25px 1.25px 0 #000, 1.25px 1.25px 0 #000; 
+}
+
+#menubalk{
+	background-color: #919191;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+
+
+.buttonsMenubalk{
+    font-size: 2.5vw;
+}
+
+.productImages{
+	width: 100%;
+}
+
+#buttons1{
+	position: relative;
+	left: 10%;
+}
+
+#buttons2{
+	position: absolute;
+	left: 45%
+}
+
+#buttons3{
+	position: absolute;
+	right: 10%;
+}
+
+#product1{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product2{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product3{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product4{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product5{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product6{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product7{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product8{
+	width: 40vw;
+	height: 30vw;
+}
+
+
+#product9{
+	width: 40vw;
+	height: 30vw;;
+}
+
+#product10{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product11{
+	width: 40vw;
+	height: 30vw;
+}
+
+#product12{
+	width: 40vw;
+	height: 30vw;
+}
+
+#contact{
+	color: #ffffff;
+    text-align: center;
+    font-size: 5vw;
+	position: relative;
+	margin: auto;
+    background-color: #00bfff;
+	width: 100%;
+}
+
+.witVlak{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	width: 100%;
+	overflow: hidden;
+}
+
+#footer{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10%, 10%;
+	font-size: 2vw;
+	top: 0px;
+}
+
+@media (max-width: 360px){
+
+#title{
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+#product1{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product2{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product3{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product4{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product5{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product6{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product7{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product8{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+	
+	
+#product9{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product10{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product11{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+#product12{
+	margin-left: 10%;
+	margin-right: auto;
+	width: 80%;
+	height: 20%;
+}
+
+	  
